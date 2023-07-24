@@ -1,34 +1,13 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FlowTalk
 
-## Getting Started
+FlowTalk is a SaaS (Software as a Service) application that offers a cutting-edge chatbot powered by Next.js, TypeScript, Prisma, Stripe, and OpenAI. The chatbot is designed to cater to users with both a free tier, which comes with a limited amount of prompts, and a pro tier that provides unlimited prompts.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- **Next.js and TypeScript**: FlowTalk is built using Next.js, a popular React framework for server-side rendering, and TypeScript, which brings static typing to the JavaScript ecosystem, enhancing code robustness and maintainability.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Prisma**: The application leverages Prisma, a modern database toolkit, to facilitate seamless and efficient data storage and management.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Stripe Integration**: FlowTalk incorporates Stripe, a secure and reliable payment gateway, to handle subscription payments for the pro tier, ensuring a smooth and hassle-free user experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **OpenAI Integration**: By integrating OpenAI, FlowTalk's chatbot gains access to state-of-the-art natural language processing capabilities, resulting in intelligent and contextually-aware responses.
